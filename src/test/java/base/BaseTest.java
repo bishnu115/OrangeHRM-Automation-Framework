@@ -13,6 +13,7 @@ public class BaseTest {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://opensource-demo.orangehrmlive.com/");
+        System.out.println("twesdcxsa");
     }
 
     @AfterClass
