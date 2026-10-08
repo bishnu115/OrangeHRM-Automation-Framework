@@ -74,6 +74,17 @@ public class LoginTest extends BaseTest {
 
        // Assert.assertTrue(dashboard.isDashboardDisplayed(), "Valid login failed");
     }
+    @Test(priority = 4)
+    public void loginTest() {
+
+//        LoginPage loginPage = new LoginPage(driver);
+//
+//        loginPage.login("wronguser", "wrongpassword");
+
+        boolean result = driver.getTitle().contains("FacebsadsaSDAsdook");
+
+        Assert.assertTrue(result, "Login verification failed");
+    }
 
 
 }
